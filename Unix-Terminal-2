@@ -1,0 +1,117 @@
+gael@gael-vostro:~/quetes/shell/planets$ tree
+.
+├── fictional
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   └── cybertron.jpeg
+├── inhabited
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   ├── cybertron.jpeg
+│   └── earth.jpeg
+└── real
+    ├── gas-giants
+    │   ├── jupiter.jpeg
+    │   └── saturn.jpeg
+    ├── neptune.jpeg
+    ├── telluric
+    │   ├── earth.jpeg
+    │   ├── mars.jpeg
+    │   ├── mercury.jpeg
+    │   └── venus.jpeg
+    └── uranus.jpeg
+
+5 directories, 15 files
+
+
+*****************************************************************
+
+34  sudo apt-get install -y tree wget unzip
+   35  ls
+   36  wgetwget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+   37  wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+   38  unzip planets.zip
+   39  eog planets
+   40  ls
+   41  mkdir real fictional inhabited
+   42  ls
+   43  rm real inhabited fictional
+   44  rm -r real inhabited fictional
+   45  ls
+   46  cd planets
+   47  ls
+   48  mkdir real fictional inhabited
+   49  cd real
+   50  mkdir telluric gas-giants dwarf planets
+   51  ls
+   52  rm -r dwarf planets
+   53  mkdir dwarf-planets
+   54  ls
+   55  cd .
+   56  cd ..
+   57  ls
+   58  mv earth.jpeg real/
+   59  ls
+   60  mv mars.jpeg uranus.jpeg mercury.jpeg venus.jpeg saturn.jpeg neptune.jpeg jupiter.jpeg
+   61  ls
+   62  mv mars.jpeg uranus.jpeg mercury.jpeg venus.jpeg saturn.jpeg neptune.jpeg jupiter.jpeg real/
+   63  ls
+   64  mv pluto.jpeg real/
+   65  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictional/
+   66  ls
+   67  mv real/earth fictional/ inhabited/
+   68  cp -r fictional real/earth.jpeg
+   69  cp -r fictional real/earth.jpeg inhabited/
+   70  cp -r fictional real/earth.jpeg inhabited
+   71  cp -r planets/fictional planets/real/earth.jpeg planets/inhabited
+   72  cp real/earth.jpeg inhabited
+   73  ls
+   74  inhabited
+   75  cd inhabited
+   76  ls
+   77  cp -r fictional planets/
+   78  cd ..
+   79  ls
+   80  cd inhabited
+   81  ls
+   82  rm planets
+   83  rm -r planets
+   84  ls
+   85  cp -r fictional ~/quetes/shell/planets
+   86  cd ..
+   87  ls
+   88  cd inhabited
+   89  ls
+   90  rm -r fictional
+   91  ls
+   92  cd ..
+   93  cp -r fictional inhabited
+   94  ls
+   95  cd inhabited
+   96  ls
+   97  cd ..
+   98  ls
+   99  rm real/pluto.jpeg
+  100  cd real
+  101  ls
+  102  tree
+  103  mv mercury.jpeg venus.jpeg earth.jpeg mars.jpeg telluric/
+  104  ls
+  105  mv jupiter.jpeg saturn.jpeg gas-giants/
+  106  ls
+  107  rm -r dwarf-planets
+  108  ls
+  109  tree
+  110  cd ..
+  111  tree
+  112  history
+  113  cd inhabited
+  114  cp fictional/arrakis.jpeg fictional/coruscant.jpeg fictional/cybertron.jpeg inhabited/
+  115  cp fictional/arrakis.jpeg fictional/coruscant.jpeg fictional/cybertron.jpeg inhabited
+  116  cp fictional/arrakis.jpeg fictional/coruscant.jpeg fictional/cybertron.jpeg planets/inhabited
+  117  rm -r fictional
+  118  ls
+  119  cd ..
+  120  cp fictional/arrakis.jpeg fictional/coruscant.jpeg fictional/cybertron.jpeg inhabited/
+  121  tree
+  122  history
