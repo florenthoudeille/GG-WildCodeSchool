@@ -1,0 +1,61 @@
+gael@gael-vostro:~$ ls
+Bureau     Downloads         Images   Musique  snap             Vidéos
+Documents  examples.desktop  Modèles  Public   Téléchargements
+gael@gael-vostro:~$ cd Téléchargements
+gael@gael-vostro:~/Téléchargements$ ls
+rorchach.jpg  slack-desktop-4.3.2-amd64.deb  watchmen1-1200x600.jpg
+gael@gael-vostro:~/Téléchargements$ cd ..
+gael@gael-vostro:~$ cd ..
+gael@gael-vostro:/home$ cd ~
+gael@gael-vostro:~$ pwd
+/home/gael
+gael@gael-vostro:~$ cd ~/Téléchargements
+gael@gael-vostro:~/Téléchargements$ ls /bin
+bash           fuser       nisdomainname  stty
+brltty         fusermount  ntfs-3g        su
+bunzip2        getfacl     ntfs-3g.probe  sync
+busybox        grep        ntfscat        systemctl
+bzcat          gunzip      ntfscluster    systemd
+bzcmp          gzexe       ntfscmp        systemd-ask-password
+bzdiff         gzip        ntfsfallocate  systemd-escape
+bzegrep        hciconfig   ntfsfix        systemd-hwdb
+bzexe          hostname    ntfsinfo       systemd-inhibit
+bzfgrep        ip          ntfsls         systemd-machine-id-setup
+bzgrep         journalctl  ntfsmove       systemd-notify
+bzip2          kbd_mode    ntfsrecover    systemd-sysusers
+bzip2recover   kill        ntfssecaudit   systemd-tmpfiles
+bzless         kmod        ntfstruncate   systemd-tty-ask-password-agent
+bzmore         less        ntfsusermap    tar
+cat            lessecho    ntfswipe       tempfile
+chacl          lessfile    open           touch
+chgrp          lesskey     openvt         true
+chmod          lesspipe    pidof          udevadm
+chown          ln          ping           ulockmgr_server
+chvt           loadkeys    ping4          umount
+cp             login       ping6          uname
+cpio           loginctl    plymouth       uncompress
+dash           lowntfs-3g  ps             unicode_start
+date           ls          pwd            vdir
+dd             lsblk       rbash          wdctl
+df             lsmod       readlink       which
+dir            mkdir       red            whiptail
+dmesg          mknod       rm             ypdomainname
+dnsdomainname  mktemp      rmdir          zcat
+domainname     more        rnano          zcmp
+dumpkeys       mount       run-parts      zdiff
+echo           mountpoint  sed            zegrep
+ed             mt          setfacl        zfgrep
+efibootdump    mt-gnu      setfont        zforce
+efibootmgr     mv          setupcon       zgrep
+egrep          nano        sh             zless
+false          nc          sh.distrib     zmore
+fgconsole      nc.openbsd  sleep          znew
+fgrep          netcat      ss
+findmnt        networkctl  static-sh
+gael@gael-vostro:~/Téléchargements$ pwd
+/home/gael/Téléchargements
+gael@gael-vostro:~/Téléchargements$ cd ..
+gael@gael-vostro:~$ ls
+Bureau     Downloads         Images   Musique  snap             Vidéos
+Documents  examples.desktop  Modèles  Public   Téléchargements
+gael@gael-vostro:~$ 
